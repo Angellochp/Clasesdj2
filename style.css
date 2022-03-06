@@ -63,7 +63,7 @@ nav li{
 
 .homeimg{
 	opacity: 0.7;
-	background-image: url(img/home.png);
+	background-image: url(media/home.png);
 	color: white;
 	height: 400px;
 	padding: 50px;
@@ -72,14 +72,14 @@ nav li{
 
 .homeimg--about{
 	opacity: 0.7;
-	background-image: url(img/home.png);
+	background-image: url(media/home.png);
 	color: white;
 	height: 300px;
 	padding: 50px;
 
 }
 .homeimg2{
-	background-image: url(img/brands2.jpg);
+	background-image: url(media/brands2.jpg);
 	color: white;
 	height: 300px;
 	padding: 50px;
