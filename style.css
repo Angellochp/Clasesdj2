@@ -13,6 +13,7 @@ body{
 	margin-bottom: 0px;
 
 }
+
 nav{
 	display: flex;	
 	flex-direction: row;
@@ -68,18 +69,19 @@ nav li{
 
 .homeimg{
 	background-image: url(media/imghome1.jpg);
-	background-size: 1200px;
+	background-size: cover;
 	opacity: 3;
 	background-position: 10%;
 	background-repeat: no-repeat;
 	color: white;
 	height: 200px;
+	/*width: 200vh;*/
 	padding: 50px;
 
 }
 .homeimg2{
 	background-image: url(media/homeimg2.jpg);
-	background-size: 1200px;
+	background-size: cover;
 	opacity: .8;
 	background-position: 10%;
 	background-repeat: no-repeat;
@@ -92,6 +94,9 @@ nav li{
 .homeimg--about{
 	opacity: 0.7;
 	background-image: url(media/home.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 	color: white;
 	height: 300px;
 	padding: 50px;
