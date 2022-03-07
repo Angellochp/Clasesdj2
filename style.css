@@ -80,11 +80,11 @@ nav li{
 .homeimg2{
 	background-image: url(media/homeimg2.jpg);
 	background-size: 1200px;
-	opacity: 3;
+	opacity: .8;
 	background-position: 10%;
 	background-repeat: no-repeat;
 	color: white;
-	height: 200px;
+	height: 500px;
 	padding: 50px;
 
 }
@@ -97,7 +97,7 @@ nav li{
 	padding: 50px;
 
 }
-.homeimg2{
+.homeimgBrands{
 	background-image: url(media/brands2.jpg);
 	color: white;
 	height: 300px;
@@ -113,9 +113,10 @@ nav li{
 .footer{
 	background-color: black;
 	color: white;
-	height: 30px;
+	height: 60px;
 	padding: 10px 20px;
 	text-align: left;
+
 
 }
 
@@ -156,7 +157,9 @@ scale: 150%;
 .homeimg{
 	background-size: 800px;
 }
-    
+.homeimg2{
+	background-size: 800px;
+}
 .marcas img{
 
 height: 50px;
