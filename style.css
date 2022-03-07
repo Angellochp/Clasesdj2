@@ -81,14 +81,26 @@ nav li{
 }
 
 .body{
-	color: gray;
+	color:  white;
 	text-align: center;
 	padding: 10px;
+	background-image: url(media/imgform.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.body h1{
+	font-size: 45px;
+	padding: 50px;
+}
+.body label{
+	background-color: gray;
+	opacity: .8;
 }
 
 .logo{
 	height: 40px;
-	padding: 0px 10px;
+	padding: 2px 10px;
 }
 
 
