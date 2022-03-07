@@ -80,6 +80,20 @@ nav li{
 	color: crimson;
 }
 
+.bodytable{
+	color:  white;
+	text-align: center;
+	padding: 10px;
+	background-image: url(media/imgnivel.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.bodytable h1{
+	font-size: 45px;
+	padding: 50px;
+}
+
 .body{
 	color:  white;
 	text-align: center;
@@ -105,12 +119,13 @@ nav li{
 
 
 .boton{
+	justify-content: center;
 	text-align: center;
 	text-decoration: none;
 	background-color: black;
 	text-decoration-color: white;
 	padding: 10px 20px;
-	border-radius: 5;
+	border-radius: 10;
 }
 
 .homeimg{
