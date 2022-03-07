@@ -80,6 +80,16 @@ nav li{
 	color: crimson;
 }
 
+.body--contactfinal{
+	color:  white;
+	text-align: center;
+	padding: 10px;
+	background-image: url(media/contactfinal.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
 .bodytable{
 	color:  white;
 	text-align: center;
