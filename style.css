@@ -14,6 +14,40 @@ body{
 
 }
 
+.bloquerazon1{
+	text-align: center;
+	padding: 80px;
+	background-image: url(media/razon1.jpg);
+	background-size: cover;
+	margin: 3px;
+	color: white;
+	font-weight: bolder;
+
+}
+
+.bloquerazon2{
+	text-align: center;
+	padding: 80px;
+	background-image: url(media/razon2.jpg);
+	background-size: cover;
+	margin: 3px;
+	color: white;
+	font-weight: bolder;
+
+}
+
+
+.bloquerazon3{
+	text-align: center;
+	padding: 80px;
+	background-image: url(media/razon3.jpg);
+	background-size: cover;
+	margin: 3px;
+	font-weight: bolder;
+	color: white;
+
+}
+
 nav{
 	display: flex;	
 	flex-direction: row;
@@ -152,8 +186,8 @@ height: 100px;
 
 .marcas img:hover{
 
-background-color: rgb(107, 154, 228);
-scale: 150%;
+background-color: rgb(235, 235, 235);
+scale: 130%;
 
 }
 
