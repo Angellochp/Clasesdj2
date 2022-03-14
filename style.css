@@ -14,18 +14,22 @@ body{
 
 }
 
-.bloquerazon1{
+.bloquesrazon{
 	text-align: center;
 	padding: 80px;
-	background-image: url(media/razon1.jpg);
+	/* background-image: url(media/razon1.jpg); */
 	background-size: cover;
 	margin: 3px;
 	color: white;
 	font-weight: bolder;
-
 }
 
-.bloquerazon2{
+.bloquesrazon:hover{
+	font-size: 150%;
+	transition: 1s transform ease;
+}
+
+/* .bloquerazon2{
 	text-align: center;
 	padding: 80px;
 	background-image: url(media/razon2.jpg);
@@ -46,7 +50,7 @@ body{
 	font-weight: bolder;
 	color: white;
 
-}
+} */
 
 nav{
 	display: flex;	
@@ -145,8 +149,6 @@ nav li{
 	background-position: 10%;
 	background-repeat: no-repeat;
 	color: white;
-	height: 200px;
-	/*width: 200vh;*/
 	padding: 50px;
 
 }
