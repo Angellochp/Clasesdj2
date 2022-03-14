@@ -1,0 +1,60 @@
+.homeimg{
+	// background-image: url(media/imghome1.jpg);
+	background-size: cover;
+	opacity: 3;
+	background-position: 10%;
+	background-repeat: no-repeat;
+	color: white;
+	padding: 50px;
+
+    a{
+        color: white;
+    }
+
+}
+.homeimg2{
+	background-size: cover;
+	opacity: .8;
+	background-position: 10%;
+	background-repeat: no-repeat;
+	color: white;
+	height: 500px;
+	padding: 50px;
+
+}
+
+.homeimg--about{
+	opacity: 0.7;
+	background-image: url(media/home.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	color: white;
+	height: 300px;
+	padding: 50px;
+
+}
+.homeimgBrands{
+	background-image: url(media/brands2.jpg);
+	color: white;
+	height: 300px;
+	padding: 50px;
+	text-align: center;
+	opacity: 95%;
+
+}
+
+@media (max-width: 495px){
+
+    .homeimg{
+        background-size: 800px;
+    }
+    .homeimg2{
+        background-size: 800px;
+    }
+    .marcas img{
+    
+    height: 50px;
+    
+    }
+    }

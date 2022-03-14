@@ -1,0 +1,47 @@
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	background-color: black;
+	color: black;
+	height: 60px;
+	padding: 10px 20px;
+	margin-bottom: 0px;
+
+    nav{
+        display: flex;	
+        flex-direction: row;
+        justify-content: space-between;
+    
+        li{
+            list-style: none;
+            padding: 15px 10px;
+        }
+    
+    
+    }
+
+}
+
+.logo{
+	height: 40px;
+	padding: 2px 10px;
+}
+@media (max-width: 495px){
+    .header{
+       nav{ 
+           li{
+        
+    font-size: 11px;
+    padding: 20px 5px;
+}
+}
+}
+
+.logo{
+height: 40px;
+padding: 10px 0px;
+margin-bottom: 0;
+}
+}
