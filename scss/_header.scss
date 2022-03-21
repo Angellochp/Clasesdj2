@@ -3,12 +3,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 
-	background-color: black;
-	color: black;
-	height: 60px;
-	padding: 10px 20px;
-	margin-bottom: 0px;
-
+	@extend .HeaderFooter;
     nav{
         display: flex;	
         flex-direction: row;

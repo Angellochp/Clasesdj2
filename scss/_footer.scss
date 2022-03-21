@@ -1,9 +1,5 @@
 .footer{
-	background-color: black;
-	color: white;
-	height: 60px;
-	padding: 10px 20px;
-	text-align: left;
-
+	@extend .HeaderFooter;
+    color: white;
 
 }

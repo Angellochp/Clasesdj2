@@ -1,2 +1,26 @@
 body{
 	margin: 0;}
+
+
+@mixin HomeImg($opa, $he){
+ 
+        background-size: cover;
+        opacity: 0.3 $opa;
+        background-position: 10%;
+        background-repeat: no-repeat;
+        color: white;
+        padding: 50px;
+        height: $he;
+    
+        a{
+            color: white;
+        }
+    
+    }  
+.HeaderFooter{
+    background-color: black;
+	color: black;
+	height: 60px;
+	padding: 10px 20px;
+	margin-bottom: 0px;
+    }

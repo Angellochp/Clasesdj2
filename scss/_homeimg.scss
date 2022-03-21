@@ -1,25 +1,9 @@
 .homeimg{
-	// background-image: url(media/imghome1.jpg);
-	background-size: cover;
-	opacity: 3;
-	background-position: 10%;
-	background-repeat: no-repeat;
-	color: white;
-	padding: 50px;
-
-    a{
-        color: white;
-    }
+    @include HomeImg(0.1, auto);
 
 }
 .homeimg2{
-	background-size: cover;
-	opacity: .8;
-	background-position: 10%;
-	background-repeat: no-repeat;
-	color: white;
-	height: 500px;
-	padding: 50px;
+    @include HomeImg(0.8, 500px);
 
 }
 
