@@ -21,19 +21,11 @@
 }
 
 @media (max-width: 495px){
-    .MenuHome li{
+    .MenuHome {
+
+        li{
         font-size: 15px;    
         } 
         
-            nav li{
-        
-                font-size: 11px;
-                padding: 20px 5px;
-            }
-        
-            .logo{
-            height: 40px;
-            padding: 10px 0px;
-            margin-bottom: 0;
         }
         }
