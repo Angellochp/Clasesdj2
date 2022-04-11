@@ -208,6 +208,17 @@ transition: 0.3s scale ease;
 
 }
 
+.botonenvio{
+
+}
+
+.botonenvio:hover{
+	color: black;
+	scale: 110%;
+transition: 0.3s scale ease;
+
+}
+
 @media (max-width: 495px){
 
 .homeimg{
